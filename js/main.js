@@ -21,19 +21,17 @@ $(document).ready(function () {
   }
 
   // slider
-  if (window.location.href.indexOf("index") > -1) {
-    $(".bxslider").bxSlider({
-      mode: "horizontal",
-      captions: true,
-      slideWidth: 1200,
-      responsive: true,
-      infiniteLoop: true,
-      touchEnabled: true,
-      speed: 500,
-      pager: false,
-      auto: true,
-    });
-  }
+  $(".bxslider").bxSlider({
+    mode: "horizontal",
+    captions: true,
+    slideWidth: 1200,
+    responsive: true,
+    infiniteLoop: true,
+    touchEnabled: true,
+    speed: 500,
+    pager: false,
+    auto: true,
+  });
 
   if (window.location.href.indexOf("index") > -1) {
     let posts = [
