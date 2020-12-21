@@ -1,0 +1,272 @@
+:root {
+    --green: rgb(19, 83, 39);
+    --blue: rgb(20, 30, 44);
+    --red: rgb(97, 28, 28);
+    --main: var(--blue);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+body {
+    background: rgb(56, 55, 46);
+}
+
+#global {
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+}
+
+#logo {
+    letter-spacing: 4px;
+    background-color: var(--main);
+    line-height: 75px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+}
+#menu {
+    background: var(--main);
+    width: 100%;
+}
+
+#menu ul {
+    line-height: 46px;
+}
+
+#menu ul li {
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu ul li:hover {
+    background-color: var(--main);
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#posts {
+    width: 60%;
+    float: left;
+}
+
+.post {
+    padding: 7px;
+}
+
+h2 {
+    font-size: 25px;
+    color:var(--main);
+}
+
+.post .date {
+    display: block;
+    color: var(--main);
+}
+
+.post p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 18px;
+    text-align: justify;
+
+}
+
+.btn-more {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    background: var(--main);
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#aside {
+    width: 31%;
+    float: right;
+}
+
+#aside h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: var(--main);
+}
+
+#aside img {
+    width: 100%;
+}
+
+#aside p:nth-child(1) {
+    font-size: 15px;
+    text-align: justify;
+}
+
+form input[type="text"],
+ input[type="password"],
+  input[type="email"],
+  input[type="number"],
+  select {
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 90%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 2px gray;
+    margin-top: 5px;
+}
+
+form input[type="submit"] {
+    background-color: white;
+    padding: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: block;
+    width: 95%;
+}
+
+footer {
+    color: white;
+    height: 47px;
+    background-color: var(--main);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+
+.bx-wrapper, .bx-viewport {
+    height: 250px !important;
+}
+
+#theme-selector {
+    position: fixed;
+    top: 40%;
+    background: rgba(51,51,51,0.7);
+    width: 40px;
+    height: 100px;
+}
+
+#green,
+ #blue,
+  #red {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#green {
+    background-color: var(--green);
+}
+#blue {
+    background-color: var(--blue);
+}
+#red {
+    background-color: var(--red);
+}
+
+#footert {
+    display: inline;
+}
+
+.go-up {
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+#logout {
+    cursor: pointer;
+    background-color: white;
+    padding: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: block;
+    width: 95%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#box {
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+
+#accordeon {
+    margin-top: 20px;
+}
+
+#clock {
+    width: 4em;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    border: 5px solid #333;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+#contact {
+    width: 80%;
+    margin-top: 15px;
+}
+
+#contact label {
+    display: block;
+    width: 100%;
+}
+
+.form-error {
+    display: block;
+    float: left;
+    font-size: 11px;
+    background: red;
+    color: white;
+    padding: 10px;
+    width: 65%;
+    margin: 15px;
+}
