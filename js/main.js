@@ -33,7 +33,7 @@ $(document).ready(function () {
     auto: true,
   });
 
-  if (window.location.href.indexOf("index") > -1) {
+  if (window.location.href == 'https://jquery-project-1.vercel.app/' ||window.location.href == 'http://127.0.0.1:5500/' ) {
     let posts = [
       {
         title: "Prueba",
