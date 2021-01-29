@@ -16,8 +16,6 @@ $(document).ready(function () {
       default:
         break;
     }
-  } else {
-    console.log("empty");
   }
 
   // slider
